@@ -8,8 +8,8 @@
 UENUM(BlueprintType)
 enum class ECPPCalcType : uint8
 {
-	Add,
-	Subtract,
-	Multiply,
-	Divide
+	Add       UMETA(DisplayName = "Addition"),
+	Subtract  UMETA(DisplayName = "Subtraction"),
+	Multiply  UMETA(DisplayName = "Multiplicatation"),
+	Divide    UMETA(DisplayName = "Division"),
 };
