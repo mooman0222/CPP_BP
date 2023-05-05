@@ -29,6 +29,7 @@ void ACPPClassBase::BeginPlay()
 {
 	Super::BeginPlay();
 
+	// ©•ª‚Ìƒƒ“ƒoŠÖ”‚ğŒÄ‚Ño‚·
 	CallParentFunc();
 }
 
