@@ -3,3 +3,7 @@
 
 #include "CPPStatic.h"
 
+void ACPPStatic::SetPoint(int myPoint)
+{
+	staticPoint = myPoint;
+}

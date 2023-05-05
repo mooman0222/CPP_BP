@@ -12,7 +12,11 @@ class CPP_BP_API ACPPStatic : public AActor
 	GENERATED_BODY()
 
 public:
-	// 静的メンバ変数
+
+	// staticメンバ関数
+	static void SetPoint(int myPoint);
+
+	// staticメンバ変数
 	static int staticPoint;
 
 	// 通常のメンバ変数
