@@ -30,7 +30,7 @@ ACPPConstructor::ACPPConstructor()
 ACPPConstructor::~ACPPConstructor()
 {
 	// Destructor‚ÅPrintString
-	UKismetSystemLibrary::PrintString(this, TEXT("Destructor Class destroyed"), true, true, FColor::Cyan, 2.f, TEXT("None"));
+	//UKismetSystemLibrary::PrintString(this, TEXT("Destructor Class destroyed"), true, true, FColor::Cyan, 2.f, TEXT("None"));
 }
 
 // Called when the game starts or when spawned
